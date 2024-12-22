@@ -1,5 +1,11 @@
 package com.riigsoft;
 
+import java.util.Scanner;
+
+interface  Operator{
+    int operation(int a, int b);
+}
+
 public class Main {
     public static void main(String[] args) {
 //       DataTypes dt = new DataTypes();
@@ -13,9 +19,18 @@ public class Main {
 //        cond.grade();
 //        cond.getDay();
 
-        Loops loop = new Loops();
-        loop.evenOdd();
-        loop.printFirst10Numbers();
+//        Loops loop = new Loops();
+//        loop.evenOdd();
+//        loop.printFirst10Numbers();
+
+        Test t = new Test();
+
+//        t.test();
+//        t.factorial();
+        t.calculator();
+
 
     }
+
+
 }
